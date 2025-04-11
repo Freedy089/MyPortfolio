@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fathir - Blockchain & AI Enthusiast. Explore my projects, skills, and journey in technology.">
+    <meta name="keywords" content="blockchain, AI, smart contracts, web development, portfolio">
+    <meta name="author" content="Fathir">
+    <title>Fathir - Blockchain & AI Enthusiast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'YOUR_GA_ID');
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Fathir</div>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#journey">Journey</a>
+            <a href="#projects">Projects</a>
+        </nav>
+        <button id="theme-toggle">🌙</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <img src="avatar.png" alt="Avatar" class="avatar">
+            <h1>Hi, I'm Fathir</h1>
+            <p>A Blockchain Enthusiast & AI Learner</p>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Saya Fathir, seorang penggemar teknologi yang sedang mendalami dunia Blockchain dan AI. Saya suka belajar hal baru setiap hari, terutama tentang smart contracts, decentralized apps, dan bagaimana AI bisa membantu proses belajar saya.</p>
+                <p>Di waktu luang, saya suka menonton Anime, saya juga sering memperdalam ilmu trading dan investasi saya. Saya percaya teknologi adalah masa depan, dan saya ingin menjadi bagian dari revolusi itu!</p>
+            </div>
+            <div class="about-skills">
+                <h3>My Skills</h3>
+                <canvas id="skills-chart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey">
+        <h2>My Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2020 - SMP</h3>
+                    <p>Saya masuk SMP pada tahun 2020, saya bersekolah di SMP Negeri 195 Jakarta Timur, saat itu sedang terjadi pandemi Covid-19, pada saat itu juga saya bersekolah daring/online</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2023 - Masuk SMK</h3>
+                    <p>Saya Masuk SMK pada tahun 2023, bersekolah di SMKS Jakarta 1, Pondok Kopi dengan jurusan RPL(Rekayasa Perangkat Lunak)</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2024 - Mengenal Cryptocurrency</h3>
+                    <p>Pada Tahun 2024 awal, tepatnya bulan Februari, saya mulai mengenal dan tertarik dengan Cryptocurrency. Awalnya saya belajar Trading dan Investasi dan lama-kelamaan saya mulai memperdalam untuk tidak hanya sekedar mempelajari ilu trading dan investasinya, saya mulai memperlajari teknologi di balik nya, yaitu Blockchain dan Smart Contracts.  </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>2025 - Mengintegrasikan AI</h3>
+                    <p>Saya mulai menggunakan AI untuk mempercepat belajar, dan mencari cara untuk menjadikannya bantuan di kehidupan sehari-hari</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Decentralized Voting System</h3>
+                <p>A secure voting system built on Ethereum blockchain using Solidity and Ethers.js.</p>
+                <a href="https://voting-dapp-portofolio.netlify.app" target="_blank">View Project</a>
+                <a href="https://sepolia.etherscan.io/address/0xB1F548cb95862A1d295433B938990f7ffe2DF9e6" target="_blank">View on Etherscan</a>
+            </div>
+            <div class="project-card">
+                <h3>Gemini Chatbot</h3>
+                <p>A chatbot powered by Google Gemini API, supporting text and image inputs.</p>
+                <a href="https://gemini-chatbot-frontend-ten.vercel.app" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>My Blog</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <h3>Understanding Smart Contracts</h3>
+                <p>A beginner's guide to creating smart contracts using Solidity.</p>
+                <a href="#" class="blog-link">Read More</a>
+            </div>
+            <div class="blog-card">
+                <h3>AI in Blockchain: The Future</h3>
+                <p>Exploring how AI can enhance blockchain technology.</p>
+                <a href="#" class="blog-link">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="form-message"></p>
+    </section>
+
+    <button id="back-to-top">⬆</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Fathir. Powered by xAI.</p>
+        <div class="social">
+            <a href="https://x.com/Slashyujii?t=37JejYFZ6WRwxydMT1jnXg&s=09">Twitter</a>
+            <a href="https://github.com/Freedy089">GitHub</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
